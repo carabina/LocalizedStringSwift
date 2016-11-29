@@ -1,5 +1,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "LocalizedStringSwift"
+    name: "LocalizedStringSwift",
+    exclude: ["Cartfile", 
+                   "Carthage", 
+                   "LocalizedStringSwift.podspec",
+                   "LocalizedStringSwift.xcworkspace",
+                   "LocalizedStringSwiftDemo"]
 )
